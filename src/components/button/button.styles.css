@@ -1,0 +1,58 @@
+.base-button {
+  width: 273px;
+  height: 52px;
+  padding: 17px 31px;
+  background-color: #4375fb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Switzer", sans-serif;
+  font-size: 14px;
+}
+.button-large {
+  padding: 17px 31px;
+  margin: 0 auto;
+  width: 273px;
+  height: 52px;
+  background: #4375fb;
+  font-family: "Switzer";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #f2f2f2;
+  border: none;
+}
+.button-medium {
+  padding: 17px 31px;
+  margin: 0 auto;
+  width: 169px;
+  height: 52px;
+  background: #4375fb;
+  font-family: "Switzer";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #f2f2f2;
+  border: none;
+}
+.button-outline-medium {
+  padding: 17px 16px;
+  margin: 0 auto;
+  width: 136px;
+  height: 52px;
+  background: #ffffff;
+  border: 1px solid #4375fb;
+  font-family: "Switzer";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #4375fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

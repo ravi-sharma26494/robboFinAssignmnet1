@@ -1,0 +1,38 @@
+.range-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 2px;
+}
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.price-min {
+  font-family: "Switzer", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(67, 117, 251, 1);
+}
+.price-max {
+  font-family: "Switzer", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.3);
+}
+.divider {
+  height: 5px;
+  width: 100%;
+  background: rgba(226, 226, 226, 1);
+}
+.divider div {
+  height: 100%;
+  background: rgba(67, 117, 251, 1);
+}

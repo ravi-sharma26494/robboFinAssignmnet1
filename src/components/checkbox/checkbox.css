@@ -1,0 +1,45 @@
+.checkbox-container {
+  position: relative;
+  width: 20px;
+  height: 19px;
+}
+.checkbox-container input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 19px;
+  border: 1px solid black;
+}
+.checkbox-container input[type="checkbox"]:checked + .checkmark:after {
+  content: "\2713"; /* Unicode character for check mark ✔️ */
+  position: absolute;
+  left: 70%; /* Adjust the horizontal position of the check mark */
+  top: 50%; /* Adjust the vertical position of the check mark */
+  transform: translate(-50%, -50%); /* Center the check mark */
+  font-size: 28px; /* Adjust the size of the check mark */
+  color: rgba(91, 182, 99, 1);
+}
+#disabled-checkbox {
+  width: 20px;
+  height: 19px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: default;
+}
+#disabled-checkbox:checked {
+  background-color: 1px solid black;
+}
+#disabled-checkbox:disabled {
+  opacity: 1;
+}
+#disabled-checkbox:hover {
+  cursor: pointer;
+}

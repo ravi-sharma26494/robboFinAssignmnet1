@@ -1,0 +1,44 @@
+.landmark-card-info-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  max-width: 447px;
+}
+.landmark-details-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.landmark-card-info-icontext {
+  font-family: "Switzer", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(67, 116, 251, 1);
+}
+.landmark-card-info-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.landmark-card-info-deatils-distance {
+  font-family: "Switzer", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.landmark-card-info-deatils-additionaldetail {
+  font-family: "Switzer", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.3);
+}

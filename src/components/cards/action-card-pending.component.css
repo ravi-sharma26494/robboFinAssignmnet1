@@ -1,0 +1,25 @@
+.action-card-pending-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  min-width: 320px;
+  max-width: 613px;
+  border: 0.5px solid #e0e0e0;
+  border-radius: 8px;
+}
+.action-card-pending-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.action-card-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.action-card-pending-right {
+  align-self: flex-end;
+}
+.action-card-left-details {
+  flex-grow: 1;
+}

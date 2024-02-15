@@ -1,0 +1,26 @@
+.info-cards-wrapper {
+  gap: 30px;
+  background: #ffffff;
+  flex-direction: column;
+  border: 5px solid rgba(217, 217, 217, 1);
+  padding: 30px 50px;
+}
+.info-cards-title {
+  font-family: "Switzer", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+.info-cards-description {
+  max-width: 447px;
+  font-family: "Switzer", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,86 @@
+.action-card-completed-container {
+  height: 156px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  background: #ffffff;
+  min-width: 320px;
+  max-width: 613px;
+  border: 0.5px solid #e0e0e0;
+  border-radius: 8px;
+  /* filter: blur(0.8px);
+  pointer-events: all; */
+}
+.action-card-completed-checkboxarea {
+  width: 20px;
+  height: 20px;
+  border: 0.5px solid black;
+  display: inline-block;
+  position: relative;
+}
+.action-card-completed-checkboxarea input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.action-card-completed-checkboxarea:before {
+  content: url("/public/tick.svg"); /* Check mark */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: green;
+}
+
+.action-card-completed-textarea {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.action-card-completed-textarea .action-card-completed-textarea-title {
+  font-family: Switzer;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.action-card-completed-textarea .action-card-completed-textarea-subtext {
+  font-family: Switzer;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(67, 117, 251, 0.5);
+}
+.action-card-completed-textarea .action-card-completed-textarea-completiontext {
+  font-family: Switzer;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(67, 117, 251, 1);
+}
+.action-card-completed-buttonarea {
+  /* align-self: flex-end; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.buttonarea-date {
+  font-family: Switzer;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: right;
+  color: rgba(0, 0, 0, 1);
+}
+/* .action-card-completed-buttonarea-button {
+  align-self: flex-end;
+} */
