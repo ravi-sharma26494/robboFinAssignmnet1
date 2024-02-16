@@ -8,7 +8,9 @@ const LeftSidebar = () => {
   return (
     <div className="left-sidebar">
       <div className="sidebar-section-with-image">
-        <img src={logo} className="logo" alt="Site logo" />
+        <span className="site-logo-wrapper">
+          <img src={logo} className="logo" alt="Site logo" />
+        </span>
       </div>
       <Link
         to="/cart"

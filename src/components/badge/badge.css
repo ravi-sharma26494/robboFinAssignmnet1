@@ -9,3 +9,11 @@
 .badge-wrapper > svg {
   color: rgba(0, 0, 0, 0.5);
 }
+@media only screen and (max-width: 600px) {
+  .badge-text {
+    font-size: 12px;
+  }
+  .badge-wrapper {
+    gap: 2px;
+  }
+}

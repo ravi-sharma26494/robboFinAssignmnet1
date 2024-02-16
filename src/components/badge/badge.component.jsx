@@ -4,7 +4,7 @@ const Badge = ({ badgeText, badgeIcon }) => {
   return (
     <span className="badge-wrapper ">
       {badgeIcon}
-      {badgeText}
+      <span className="badge-text">{badgeText}</span>
     </span>
   );
 };

@@ -5,6 +5,9 @@
   flex-direction: column;
   gap: 10px;
 }
+.simple-card-title {
+  font-size: 32px;
+}
 .simple-card-image {
   max-width: 447px;
   max-height: 266px;

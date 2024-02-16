@@ -12,7 +12,16 @@
   justify-content: center;
   text-align: center;
 }
-
+.site-logo-wrapper {
+  width: 58px;
+  height: 36px;
+  align-self: center;
+}
+.site-logo-wrapper > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .sidebar-section {
   height: 142px;
   background-color: white;
@@ -26,8 +35,6 @@
   letter-spacing: 0em;
   text-align: center;
   color: rgba(0, 0, 0, 1);
-
-  /* margin-bottom: 10px; */
 }
 .disabled-link {
   filter: blur(0.6px);
@@ -37,7 +44,7 @@
 .remaining-space {
   background-color: #ffff;
   height: 100%;
-  flex-grow: 1; /* This makes the remaining space section take up the remaining space */
+  flex-grow: 1;
 }
 @media screen and (max-width: 768px) {
   .left-sidebar {

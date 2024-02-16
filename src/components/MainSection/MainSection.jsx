@@ -175,18 +175,7 @@ const MainSection = () => {
         <SimpleCardComponent />
       </div>
       {/* Modal */}
-      {isModalOpen && (
-        <DefaultModal onClose={toggleModal}>
-          {/* <div className="max-h-80 overflow-y-auto">
-            <ActionCardCompleted />
-            <ActionCardCompleted />
-            <ActionCardCompleted />
-            <ActionCardCompleted />
-            <ActionCardCompleted />
-            <ActionCardCompleted />
-          </div> */}
-        </DefaultModal>
-      )}
+      {isModalOpen && <DefaultModal onClose={toggleModal}></DefaultModal>}
     </div>
   );
 };
